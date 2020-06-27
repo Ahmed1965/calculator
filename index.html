@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	<!-- <div id="cal"> calculator </div>
+		<table>
+			
+			<tr>
+				<td> <input type="text" id="disp" /> </td>
+	
+			</tr>
+			
+	<tr>
+			<td><input type="button" value="C" onclick="clr()"></td> 
+			<td> <input type="button" value="7" onClick="disp('7')" ></td>
+			<td> <input type="button" value="8" onClick="disp('8')"> </td>
+				<td> <input type="button" value="9" onClick="disp('9')"> </td>
+				<td><input type="button" value="/" onClick="disp('/')"></td> 
+			</tr>
+			
+			<tr>
+				<td> <input type="button" value="4" onClick="disp('4')"> </td>
+				<td> <input type="button" value="5" onClick="disp('5')" />  </td>
+						<td> <input type="button" value="6" onClick="disp('6')" /> </td>
+							<td> <input type="button" value="x" onClick="disp('*')" /> </td>
+			</tr>
+			
+			<tr>
+				<td> <input type="button" value="1" onClick="disp('1')" /> </td>
+					<td> <input type="button" value="2" onClick="disp('2')" /> </td>
+						<td> <input type="button" value="3" onClick="disp('3')" /> </td>
+							<td> <input type="button" value="+" onClick="disp('+')" /> </td>
+			</tr>
+			<tr>
+				<td><td> <input type="button" value="0" onClick="disp('0')" /> </td></td>
+				<td> <input type="button" value="=" onClick="solve()" /> </td>
+			</tr>
+
+
+	
+	
+	
+	
+	</table> -->
+
+	<div class = title > JavaScript Calculator</div>
+<table>
+<tr>
+<td><input type="button" value="c" onclick="clr()"/> </td>
+<td colspan="3"><input type="text" id="display"/></td>
+<!-- clr() function will call clr to clear all value -->
+</tr>
+<tr>
+<!-- creating buttons and assigning values-->
+<td><input type="button" value="+" onclick="dis('+')"/> </td>
+<td><input type="button" value="7" onclick="dis('7')"/> </td>
+<td><input type="button" value="8" onclick="dis('8')"/> </td>
+<td><input type="button" value="9" onclick="dis('9')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="-" onclick="dis('-')"/> </td>
+<td><input type="button" value="4" onclick="dis('4')"/> </td>
+<td><input type="button" value="5" onclick="dis('5')"/> </td>
+<td><input type="button" value="6" onclick="dis('6')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="x" onclick="dis('*')"/> </td>
+<td><input type="button" value="1" onclick="dis('1')"/> </td>
+<td><input type="button" value="2" onclick="dis('2')"/> </td>
+<td><input type="button" value="3" onclick="dis('3')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="/" onclick="dis('/')"/> </td>
+<td><input type="button" value="." onclick="dis('.')"/> </td>
+<td><input type="button" value="0" onclick="dis('0')"/> </td>
+<!-- Evaluating function call eval()-->
+<td><input type="button" value="=" onclick="solve()"/> </td>
+</tr>
+
+		
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+<!--
+	<div id="main">
+	<div>
+		<input  type="text" />
+		</div>	
+		<div>
+		<input id="result" type="button" onClick="clr()" >
+			<button class="clear">AC</button>
+		</div>
+		<div>
+		<input type="button" value="7"  onClick="disp('7')" >  
+			<input type="button" value="8" onClick="disp('8')" >  
+			<input type="button" value="9" onClick="disp('9')">  
+			<inpu type="button" value="/" onClick="dis('/')" />  
+		</div>
+		
+		<div>
+			<input type="button" value="4" onClick="disp('4')" >
+			<input type="button" value="5" onClick="disp('5')"> 
+			<input type="button" value="6" onClick="disp('6')"> 
+			<input type="button" value="-" onClick="disp('-')"> 
+
+		</div>
+		 
+		<div>
+			<input type="button" value="1" onClick="disp('1')"> 
+			<input type="button" value="2" onClick="disp('2')"> 
+			<input type="button" value="3" onClick="disp('3')"> 
+			<input type="button" value="+" onClick="disp('+')"> 
+			
+			<div>
+				<input type="button" value="0" onClick="disp('0')"> 
+				<input type="button" value="=" onClick="disp('=')"> 
+				
+			
+			</div>
+
+		</div>
+		
+	
+	
+	</div>
+-->
+	
+	
+	
+	
+	
+</body>
+<script src="/js/app.js"></script>
+</html>
